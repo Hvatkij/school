@@ -1,0 +1,15 @@
+my_dict = {'Ivan': 1977, 'Nataliya': 1978, 'Vasya': 1983}
+print('Dict:', my_dict)
+print('Existing value: ', my_dict.get('Ivan'))
+print('Not existing value: ',my_dict.get('Seva'))
+my_dict.update({'Daniil':1999,'Mariya': 1991})
+print('New_my_dict: ',my_dict)
+a_ =  my_dict.pop('Mariya')
+print('Deleted value: ',a_)
+print('Modified dictionary: ',my_dict)
+print( )
+my_set = {1, 2, 1, 2, 'Верх'}
+print('Set: ',my_set)
+my_set.discard(2)
+my_set.add('Низ')
+print('Modified set: ',my_set)
